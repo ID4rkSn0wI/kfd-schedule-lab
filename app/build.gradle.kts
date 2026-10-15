@@ -11,6 +11,7 @@ dependencies {
     testImplementation(libs.kotlin.test)
     testImplementation(libs.junit.jupiter)
     testRuntimeOnly(libs.junit.launcher)
+    testImplementation(kotlin("test"))
 }
 application {
     mainClass.set("schedule.MainKt")

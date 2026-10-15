@@ -8,7 +8,8 @@ fun main(args: Array<String>) {
     exitProcess(runApplication(args))
 }
 
-/** Ready entry point. Students implement the handlers in Commands.kt. */
+// .\gradlew.bat :app:run --args="type --file samples/dirty.txt --type EXAM"
+// .\gradlew.bat :app:run --args="errors --file samples/dirty.txt"
 fun runApplication(
     args: Array<String>,
     handlers: CommandHandlers = StudentCommandHandlers,
